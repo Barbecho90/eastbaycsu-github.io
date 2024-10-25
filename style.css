@@ -1,0 +1,132 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+
+  .container {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space between left and right divs */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Optional padding */
+    background-color: #fff; /* Background for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+
+  .small-image{
+    width: 50%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .test {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Space between left and right divs */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Optional padding */
+    }
+
+  .left {
+    display: flex; /* Enable flexbox for left div */
+    align-items: center; /* Center items vertically */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: x-large;
+    letter-spacing: 2px;
+  }
+
+  .right {
+    display: flex; /* Enable flexbox for right div */
+    align-items: center; /* Center items vertically */
+  }
+
+  .button {
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Button padding */
+    color: rgb(23, 22, 22); /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 10px; /* Space between buttons */
+  }
+  .carousel {
+    position:relative;
+    max-width: 5px;
+  }
+
+  .carousel-images {
+    display: flex;
+    transition: 0.3s ease;
+    padding: 50px;
+    }
+    
+.prev {
+left: 10px;
+
+}
+
+.next {
+right: 10px;
+}
+
+
+.containerV {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px ;
+  }
+
+  .box {
+  width: 250px;
+height: 150px;
+border: 1px solid red;
+  }
+
+  #one {
+    order: 1;
+    }
+    #two {
+    order: 1;
+    }
+    #three {
+    order: 1;
+    }
+   
+  
+
+
+
+
+    .input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 10px solid #e2d7d7;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+    .section {
+      margin-top: 20px;
+  }
+
+  h1, h2 {
+      margin-bottom: 10px;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
+
+  @media (min-width: 600px) {
+      .grid {
+          grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .image-preview {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-left: 10px;
+  }

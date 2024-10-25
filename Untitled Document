@@ -1,0 +1,16 @@
+ <div class="carousel">
+      <div class="carousel-images">
+        <img src="CarouselPhotos/candle.jpeg" alt="Image 1" />
+        <img src="CarouselPhotos/rawCera.jpeg" alt="Image 2" />
+        <img src="CarouselPhotos/candle2.jpeg" alt="Image 3" />
+        <img src="CarouselPhotos/soap.jpeg" alt="Image 4" />
+        <img src="CarouselPhotos/bees.jpeg" alt="Image 5" />
+        <img src="CarouselPhotos/portada.jpeg" alt="Image 6" />
+        <img src="CarouselPhotos/hb.jpeg" alt="Image 7" />
+        <img src="CarouselPhotos/panal.jpeg" alt="Image 8" />
+        <!--Duplicate photos-->
+        <img src="CarouselPhotos/soap.jpeg" alt="Image 4" />
+        <img src="CarouselPhotos/bees.jpeg" alt="Image 5" />
+        <img src="CarouselPhotos/portada.jpeg" alt="Image 6" />
+        <img src="CarouselPhotos/hb.jpeg" alt="Image 7" />
+        <img src="CarouselPhotos/panal.jpeg" alt="Image 8" />
